@@ -1,4 +1,116 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: #828282;
+    padding-left: 190px;
+    padding-right: 190px;
 }
+
+div {
+    text-align: center;
+}
+
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: #828282;
+    padding: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0px;
+}
+
+#hnmain {
+    min-width: 796px;
+}
+
+  /* cellpadding */
+th, td {
+    padding: 0px;
+}
+
+/* align (center) */
+
+.pagetop {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: #222222;
+    line-height: 12px;
+    padding-top: 10px;
+}
+
+.hnname {
+    margin-left: 1px;
+    margin-right: 5px;
+    white-space: normal;
+    align-items: center;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: #828282;
+    overflow: hidden;
+    text-align: left;
+}
+
+.title a {
+    word-break: break-all;
+    text-align: left;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: auto;
+    text-align: left;
+}
+
+.votearrow {
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    margin: 3px 2px 6px;
+    background: url(triangle.svg);
+    background: no-repeat;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    background-size: 10px;
+}
+
+.comhead {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    color: #828282;
+}
+
+.comhead a:link {
+    color: #828282;
+}
+
+td.spacer {
+    height: 5px;
+}
+
+.subtext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7pt;
+    color: #828282;
+}
+
+.subtext a:link {
+    color: #828282;
+}
+
